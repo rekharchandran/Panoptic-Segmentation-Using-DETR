@@ -6,5 +6,6 @@ DETR can be naturally extend by adding a mask head on top of the decoder outputs
 
 ### Panoptic architecture overview:
 
-![image](https://user-images.githubusercontent.com/50706192/204527657-f8b42a97-5e5b-4366-992f-adeb89c6741f.png)
+![image](https://user-images.githubusercontent.com/50706192/204527900-93e1ebf5-c886-49b2-ab38-6e97159c9c0f.png)
+
 
