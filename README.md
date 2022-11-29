@@ -4,5 +4,7 @@ Its is fusion of instance segmentation which aims at predicting a mask for each 
 
 DETR can be naturally extend by adding a mask head on top of the decoder outputs for panoptic segmentation. This head can be used to produce panoptic segmentation by treating stuff and thing classes in a unified way. Through panoptic segmentation the authors aim at understanding whether DETR's object embeddings can be used for the downstream tasks.
 
-First task is to train regular DETR to predict boxes around things (foreground) and stuff (background objects) in a uniform manner
-Once the detection model is trained we freeze the weights, train a mask head for 25 epochs
+### Panoptic architecture overview:
+
+![image](https://user-images.githubusercontent.com/50706192/204527657-f8b42a97-5e5b-4366-992f-adeb89c6741f.png)
+
