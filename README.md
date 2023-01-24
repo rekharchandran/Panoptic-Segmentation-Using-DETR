@@ -15,4 +15,4 @@ DETR can be naturally extend by adding a mask head on top of the decoder outputs
 •	 we proceed to upsample and clean these masks, using convolutional network that uses the imtermediate activations from the backbone.
 •	 As a result we get high resolution maps where each pixel contains a binary logit of belonging to the mask.
 
-
+•	FInally the masks are merged by assigning each pixel to the mask with the highest logit using a simple pixel wise argmax
